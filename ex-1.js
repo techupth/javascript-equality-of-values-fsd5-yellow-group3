@@ -9,8 +9,8 @@ Object.is(null, undefined); // false
 
 10 === 20; // false
 10 === "10"; // false
-3.14 !== 3.14; // false
-"TechUp" !== "TechUp"; // false
+3.14 !== 3.14; // true
+"TechUp" !== "TechUp"; // true
 NaN === NaN; // // false
 0 !== -0; // true
 
